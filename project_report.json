@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "title": "Credit Risk and Loan Default Prediction System",
+    "course": "CS 439: Intro to Data Science",
+    "team": [
+      "Andy Zhu (AZ455)",
+      "Jacob Cheng (JC3045)"
+    ],
+    "date": "2025-12-10 20:27:33"
+  },
+  "datasets": {
+    "german_credit": {
+      "rows": 1000,
+      "columns": 17,
+      "default_rate": 0.3
+    },
+    "loan_approval": {
+      "rows": 614,
+      "columns": 12,
+      "rejection_rate": 0.3127035830618892
+    }
+  },
+  "results": {
+    "german_credit": {
+      "best_model": "Random Forest",
+      "best_auc": 0.8176719576719577,
+      "best_accuracy": 0.78
+    },
+    "loan_approval": {
+      "best_model": "Random Forest",
+      "best_auc": 0.7587564485473799,
+      "best_accuracy": 0.8
+    }
+  },
+  "files_generated": [
+    "german_credit_eda.png",
+    "loan_approval_eda.png",
+    "german_model_comparison.png",
+    "loan_model_comparison.png",
+    "german_prediction_analysis.png",
+    "loan_prediction_analysis.png",
+    "dataset_comparison.png",
+    "german_feature_importance.png",
+    "loan_feature_importance.png"
+  ],
+  "conclusions": [
+    "German Credit: Random Forest achieved best performance (AUC: 0.8177)",
+    "Loan Approval: Random Forest achieved best performance (AUC: 0.7588)",
+    "Random Forest demonstrated consistent performance across both datasets",
+    "Feature engineering significantly improved model performance",
+    "The system successfully predicts credit risk in different contexts",
+    "Prediction visualizations provide insights into model confidence and error patterns"
+  ]
+}
